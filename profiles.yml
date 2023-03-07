@@ -5,7 +5,7 @@ default:
       type: postgres
       host: e-commerce.cj3oddyv0bsk.us-west-1.rds.amazonaws.com
       port: 5432
-      # user: dbt_test
+      user: postgres
       password: Welcome!234
       database: Airbyte
       schema: dbt_test
