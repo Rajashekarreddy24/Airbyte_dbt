@@ -1,0 +1,10 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: e-commerce.cj3oddyv0bsk.us-west-1.rds.amazonaws.com
+      port: 5432
+      user: dbt_test
+      password: Welcome!234
+      database: Airbyte
