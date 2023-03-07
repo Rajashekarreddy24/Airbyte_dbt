@@ -10,6 +10,7 @@
 
 
 -- Rename a column in my_table
+{{ config(materialized='table') }}
 
 {{  rename_column(
       schema = 'test',
