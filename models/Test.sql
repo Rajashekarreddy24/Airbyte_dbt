@@ -10,6 +10,7 @@
 
 
 -- Rename a column in my_table
+
 {{  rename_column(
       schema = 'test',
       table = 'sheet1',
