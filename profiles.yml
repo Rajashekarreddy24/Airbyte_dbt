@@ -8,3 +8,4 @@ default:
       user: dbt_test
       password: Welcome!234
       database: Airbyte
+      schema: dbt_test
